@@ -38,13 +38,13 @@ public class Tree {
         }
     }
 
-    public int calculateMedian() {
+    public double calculateMedian() {
         ArrayList<Integer> values = new ArrayList<>();
         getValuesIntoArray(this.root, values);
         Collections.sort(values);
         int size = values.size();
         if (size % 2 == 0) {
-            return (values.get(size / 2) + values.get((size - 1) / 2)) / 2;
+            return ((double)(values.get(size / 2) + values.get((size - 1) / 2))) / 2;
         } else {
             return values.get(size / 2);
         }
