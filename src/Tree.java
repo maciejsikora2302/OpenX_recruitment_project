@@ -57,4 +57,18 @@ public class Tree {
             getValuesIntoArray(node.getRight(), values);
         }
     }
+
+    @Override
+    public String toString(){
+        print(root);
+        return "";
+    }
+
+    private void print(Node node){
+        if(node != null){
+            print(node.getLeft());
+            System.out.println(node);
+            print(node.getRight());
+        }
+    }
 }

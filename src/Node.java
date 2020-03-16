@@ -35,8 +35,8 @@ public class Node {
     public String toString() {
         return "Node{" +
                 "value=" + value +
-                ", left=" + left +
-                ", right=" + right +
+                ",\t left=" + left +
+                ",\t right=" + right +
                 '}';
     }
 }
