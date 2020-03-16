@@ -26,4 +26,7 @@ As it init value it that Node as acts as if this Node is root of a tree. We can 
 
 method.
 
+##Tests
+All used test are in "test" directory.
+
 
